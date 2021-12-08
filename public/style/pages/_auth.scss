@@ -1,0 +1,82 @@
+//styling halaman awal (parent)
+.page-auth {
+    //ukuran tablet
+    //biar responsive (dengan device apapun rapi)
+    @media (min-width: 768px) {
+        // width: 98.5vw;
+        width: 100%;
+        overflow-x: hidden;
+        min-height: 80vh;
+    }
+
+    //child dari page-auth
+    .section-pay-auth {
+        // min-height: 70vh;
+
+        .section-left,
+        .section-right {
+            @media (min-width: 768px) {
+                min-height: 100vh;
+            }
+        }
+
+        //child dari section-pay-auth
+        //biar logo sama formnya turun sebesar 100pxs
+        .login-logo,
+        .login-form {
+            @include media-breakpoint-up(lg) {
+                margin-top: 100px;
+            }
+        }
+
+        // untuk konten di sebelah kiri (logo)
+        .section-left {
+            // background-color: rgba(0, 0, 0, 0.16);
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color: #f0f2f1;
+            @media (max-width: 768px) {
+                height: 100vh;
+            }
+
+            //untuk menyembunyikan logo pada ukuran md kebawah (tablet & mobile)
+            @include media-breakpoint-down(md) {
+                display: none;
+            }
+        }
+
+        .section-right {
+            // background-color: #fff;
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+            h3 {
+                font-weight: 550; // ukuran ketebalan huruf
+                font-size: 18px;
+                color: #000;
+                margin-top: 0;
+
+                //untuk ngilangin h3 pas table ke bawah (tablet,hp)
+                @include media-breakpoint-down(md) {
+                    display: none;
+                }
+            }
+
+            .form-control {
+                border-radius: 7px;
+                border: solid 0.7px #625332;
+                background: #f3f3f3;
+            }
+
+            .btn-login-auth {
+                border-radius: 13px;
+                background-color: var(--dust) !important;
+                color: var(--pale-grey-98);
+                &:hover {
+                    background-color: var(--pale-grey-98) !important;
+                    color: var(--dust) !important;
+                }
+            }
+        }
+    }
+}

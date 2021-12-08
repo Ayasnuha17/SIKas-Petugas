@@ -1,0 +1,168 @@
+.Masuk-Sistem-1 {
+  width: 1366px;
+  height: 768px;
+  padding: 0 0 0 0;
+  background-color: #fff;
+}
+
+/*untuk segmen abu-abu*/
+.Rectangle-4 {
+  width: 642px;
+  height: 768px;
+  margin: 0 248px 0 0;
+  /* padding: 203px 143px 203px 144px; */
+  padding: 0 0 0 0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f0f2f1;
+}
+
+.Selamat-Datang- {
+  width: 200px;
+  height: 23px;
+  /* margin: 0 47px 5px 0; */
+  margin: 0 47px 5px 837px;
+  padding: 200px 5px 0px 0px; /*atas,kanan,bawah,kiri */
+  font-family: Assistant;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.Yayasan-RM-Suryowinoto-Yogyakarta {
+  width: 350px;
+  height: 23px;
+  /* margin: 5px 0 38px; */
+  margin: 0 47px 25px 845px;
+  /* padding: 190px; */
+  font-family: Assistant;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+/* untuk kotak username dan password */
+.Rectangle-2 {
+  width: 90px;
+  height: 10px;
+  margin: 0 47px 5px 870px; /* atas kanan bawah kiri*/
+  /* padding: 14px 194px 13px 20px; */
+  padding: 14px 194px 18px 20px;
+  border-radius: 7px;
+  border: solid 1px #625332;
+  background-color: #f0f2f1;
+}
+
+.Username {
+  width: 58px;
+  height: 18px;
+  font-family: Assistant;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Kata-sandi {
+  width: 59px;
+  height: 18px;
+  font-family: Assistant;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+/* kotak kecil ingatkan saya */
+.Rectangle-3 {
+  width: 18px;
+  height: 18px;
+  margin: 0 8px 1px 870;
+  border-radius: 4px;
+  border: solid 1px #625332;
+}
+
+.Ingatkan-saya {
+  width: 90px;
+  height: 18px;
+  margin: 1px 0 0 25px;
+  font-family: Assistant;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Lupa-Password- {
+  width: 90px;
+  height: 15px;
+  /* margin: 17px 23px 56px 47px; */
+  padding: 17px 0px 56px 1080px;
+  font-family: Assistant;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.Lupa-Password- .text-style-1 {
+  font-weight: 300;  
+} 
+
+.Rectangle-5 {
+  width: 70px;
+  height: 10px;
+  margin: 0px 50px 0 910px;
+  padding: 10px 90px 20px 91px; /*buat ngatur tulisan masuk*/
+  border-radius: 13px;
+  background-color: #b1a069;
+}
+
+.Masuk {
+  width: 50px;
+  height: 23px;
+  font-family: Assistant;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f2e8e9;
+}
+
+img.Logo-PAY-gold {
+  width: 355px;
+  height: 362px;
+  object-fit: contain;
+  margin: -360px 47px 5px 120px; /* atas kanan bawah kiri*/
+  /* padding: 14px 194px 13px 20px; */
+  /* padding: 14px 194px 18px 20px; */
+}
+

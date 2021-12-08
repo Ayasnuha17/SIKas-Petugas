@@ -1,0 +1,13 @@
+// import bootstrap dalam style
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+// untuk manggil/import file scss
+@import "fonts";
+@import "global";
+
+// import dari folder pages
+@import "pages/auth";
+@import "pages/dashboard";
+
+//import dari folder components
+@import "components/card";

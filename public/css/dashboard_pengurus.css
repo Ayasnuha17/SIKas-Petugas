@@ -1,0 +1,187 @@
+/* area utama */
+.Rectangle-44 {
+  width: 250px;
+  height: 767px;
+  /* margin: 0 73px 0 0;
+  padding: 56px 0 374px; */
+  background-color: #fff;
+}
+
+.Dashboard---Pengurus {
+  width: 1366px;
+  height: 768px;
+  padding: 0 26px 1px 0;
+  background-color: #fafafa;
+}
+
+/*tulisan dasboard*/
+.Dashboardatas {
+  width: 145px;
+  height: 40px;
+  margin: 6px 68px 10px 323px; /* atas kanan bawah kiri*/
+  font-family: Assistant;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+/*kotakan logo sistem yang kiri*/
+.logo_sistem {
+  width: 221px;
+  height: 41px;
+  margin: 0 14px 116px 15px;
+}
+
+/*logo*/
+.Logo-PAY-bitmap {
+  width: 41px;
+  height: 41px;
+  margin: 0 7px 0 0;
+}
+
+.Sistem-Kas-Yayasan-RM-Suryowinoto-Yogyakarta {
+  width: 150px;
+  height: 28px;
+  margin: 6px 7px 7px 50px;
+  font-family: Assistant;
+  font-size: 11px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c0aa77;
+}
+
+/* /*tulisan selamat datang */
+.Selamat-datang-Pengurus-Yayasan-RM-Suryowinoto-Yogyakarta {
+  width: 580px;
+  height: 26px;
+  margin: 0px 10px 30px 323px;
+  font-family: Assistant;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #135350;
+}
+
+/* warna ijo utk menu */
+.Rectangle-45 {
+  width: 180px;
+  height: 45px;
+  margin: 0px 0 5px;
+  padding: 12px 45px 12px 30px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-image: linear-gradient(to right, rgba(19, 83, 80, 0.31), rgba(19, 83, 80, 0.07), rgba(19, 83, 80, 0.3) 15%, rgba(19, 83, 80, 0.67) 85%, rgba(19, 83, 80, 0.93) 239%);
+}
+
+/* tulisan dashboard */
+.Dashboard {
+  width: 74px;
+  height: 21px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+/* menu kas */
+.Kas-Masuk {
+  width: 70px;
+  height: 21px;
+  margin: 5px 136px 15px 44px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Kas-Keluar {
+  width: 100px;
+  height: 21px;
+  margin: 15px 136px 15px 44px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Rekapan-Total {
+  width: 94px;
+  height: 21px;
+  margin: 15px 112px 16px 44px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Donatur {
+  width: 54px;
+  height: 21px;
+  margin: 16px 152px 0 44px;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+/* logo pengurus */
+.Ellipse-7 {
+  width: 45px;
+  height: 45px;
+  margin: 0px 13px 7px 1000px;
+  padding: 7.7px 11.7px 9px 12px;
+  background-color: #e5e0c9;
+}
+
+
+.Hi-Pengurus {
+  width: 100px;
+  height: 23px;
+  margin: 15px 0 18px 1100px;
+  font-family: Assistant;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}

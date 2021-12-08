@@ -1,0 +1,29 @@
+.Kas-Masuk---Pengurus {
+    width: 1366px;
+    height: 768px;
+    padding: 0 26px 1px 0;
+    background-color: #fafafa;
+  }
+
+  .Rectangle-44 {
+    width: 250px;
+    height: 767px;
+    margin: 0 73px 0 0;
+    padding: 56px 0 374px;
+    background-color: #fff;
+  }
+
+  .Kas-Masuk {
+    width: 134px;
+    height: 40px;
+    margin: 6px 79px 17px 73px;
+    font-family: Assistant;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }

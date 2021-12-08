@@ -1,0 +1,123 @@
+// scss untuk general dashboard
+.page-dashboard {
+    #page-content-wrapper {
+        background: #fafafa;
+        min-width: 100vw;
+    }
+
+    #sidebar-wrapper {
+        margin-top: 60px;
+        min-height: 100vh;
+        margin-left: -15rem;
+        transition: margin 0.25s ease-out;
+
+        .sidebar-heading {
+            padding: 1.5rem 0.5rem;
+            //font-size: 1.2rem;
+
+            .heading-title {
+                font-size: 14px;
+                color: #c0aa77;
+            }
+        }
+        .list-group {
+            width: 15rem;
+        }
+    }
+
+    #wrapper {
+        &.toggled {
+            #sidebar-wrapper {
+                margin-left: 0;
+            }
+        }
+    }
+    // navbar store (gapake)
+
+    // menu sidebar
+    .list-group-item {
+        border: 0;
+        font-size: 16px;
+        color: #000;
+
+        &.active {
+            background: linear-gradient(
+                to right,
+                rgba(19, 83, 80, 0.07),
+                rgba(19, 83, 80, 0.3) 15%,
+                rgba(19, 83, 80, 0.67) 85%,
+                rgba(19, 83, 80, 0.93) 239%
+            );
+            border-right: 4px solid rgba(19, 83, 80, 0.67);
+            color: #0c0d36;
+        }
+    }
+
+    // biar responsive
+    @include media-breakpoint-up(md) {
+        #sidebar-wrapper {
+            margin-left: 0;
+            margin-top: 0px;
+        }
+        #page-content-wrapper {
+            min-width: 0;
+            width: 100%;
+        }
+
+        #wrapper {
+            &.toggled {
+                margin-left: -15rem;
+            }
+        }
+    }
+
+    .section-content {
+        // jarak untuk di mobile
+        margin-top: 100px;
+
+        @include media-breakpoint-up(md) {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        // emang ga keliatan katanya
+        h5 {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: normal;
+            color: #000;
+        }
+
+        .dashboard-title {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: normal;
+            color: #000;
+        }
+        .dashboard-subtitle {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.3;
+            color: #135350; //warnanya beda sama yang di sistem. kalo di sistem warnanya jadi lebih agak item bukan biru
+        }
+
+        .table {
+            .thead-table {
+                background-color: #b1a069;
+                font-size: 15px;
+                line-height: 1.27;
+                text-align: center;
+                color: rgba(249, 238, 240, 0.98);
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 17px;
+            line-height: 1.29;
+            color: #707070;
+        }
+
+        // buat card/style kotakan saldo ada di file component/card.scss
+    }
+}
